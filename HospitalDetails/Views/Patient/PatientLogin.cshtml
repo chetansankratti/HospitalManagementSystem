@@ -1,0 +1,24 @@
+@model PatientModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css"/>
+}
+
+
+<div class="form">
+    <h2>Patient's Login</h2>
+    <form asp-controller="Patient" asp-action="PatientLogin" method="post" autocomplete="off">
+        <label asp-for="Phone_Number" class="label">Phone Number</label>
+        <input asp-for="Phone_Number" class="input"/>
+        <span asp-validation-for="Phone_Number" style="color: red"></span>
+
+        <label asp-for="Password" class="label">Password</label>
+        <input asp-for="Password" class="input" type="password"/>
+        <span asp-validation-for="Password" style="color: red"></span><br/>
+        <button type="submit" class="btn btn-outline-danger"> Submit</button>
+        <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+    </form>
+    
+</div>

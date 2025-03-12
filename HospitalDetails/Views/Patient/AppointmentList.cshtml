@@ -1,0 +1,51 @@
+@model List<PatientModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css"/>
+}
+
+<div class="table-content">
+     @if (Model != null && Model.Any()) 
+    { 
+
+        <h2>Patient's Appointment Details </h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Patient ID</th>
+                <th>Patient Name</th>
+                <th>Contact Number</th>
+                <th>Patient Age</th>
+                <th>Gender</th>
+                <th>Appointment Date</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            @foreach (var tableData in Model)
+            {
+                <tr>
+                    <td>@tableData.Patient_ID</td>
+                    <td>@tableData.Patient_Name</td>
+                    <td>@tableData.Phone_Number</td>
+                    <td>@tableData.Patient_Age</td>
+                    <td>@tableData.Gender</td>
+                    <td>@tableData.AppointmentDate</td>
+                    
+                </tr>
+            }
+            </tbody>
+        </table>
+        <br/>
+        <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+        <button class="btn btn-outline-primary"><a href="@Url.Action("AddAppointment","Patient")">Add</a></button>
+
+    } 
+    else
+    {
+        Console.WriteLine("No Data Found");
+    }
+</div>

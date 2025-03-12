@@ -1,0 +1,64 @@
+@model List<PatientModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css"/>
+}
+
+<div class="table-content">
+    @if (Model != null && Model.Any())
+    {
+
+        <h2>Patients Details</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Patient ID</th>
+                <th>Patient Name</th>
+                <th>Gender</th>
+                <th>Patient Age</th>
+                <th>Date of Birth</th>
+                <th>Contact Number</th>
+                <th>Disease Name</th>
+                <th>Appointment Date</th>
+                <th>Address</th>
+                <th>Doctor Name</th>
+                <th>Medicine Details</th>
+                <th>Update</th>
+                
+            </tr>
+            </thead>
+
+            <tbody>
+            @foreach (var tableData in Model)
+            {
+                <tr>
+                    <td>@tableData.Patient_ID</td>
+                    <td>@tableData.Patient_Name</td>
+                    <td>@tableData.Gender</td>
+                    <td>@tableData.Patient_Age</td>
+                    <td>@tableData.DOB</td>
+                    <td>@tableData.Phone_Number</td>
+                    <td>@tableData.Disease_Name</td>
+                    <td>@tableData.AppointmentDate</td>
+                    <td>@tableData.Address</td>
+                    <td>@tableData.Doctor_Name</td>
+                    <td>@tableData.MedicineDetails</td>
+                    <td><button class="btn btn-outline-warning"><a href="@Url.Action("PatientUpdate","Patient",new{Patient_ID=tableData.Patient_ID,Patient_Name=tableData.Patient_Name,Disease_Name=tableData.Disease_Name,})">Update</a></button></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+        <br/>
+       
+        <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+
+    }
+    else
+    {
+        Console.WriteLine("No Data Found");
+    }
+</div>
+

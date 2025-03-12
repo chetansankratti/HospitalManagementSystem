@@ -1,0 +1,47 @@
+@model List<DoctorModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css"/>
+}
+
+<div class="table-content">
+    @if (Model != null && Model.Any())
+    {
+
+        <h2>Doctor Details</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Doctor Name</th>
+                <th>Specialist</th>
+                <th>PhoneNumber</th>
+                @* <th>Doctor Name</th> *@
+              
+                
+            </tr>
+            </thead>
+
+            <tbody>
+            @foreach (var dactorData in Model)
+            {
+                <tr>
+                    <td>@dactorData.Doctor_Name</td>
+                    <td>@dactorData.Specialist</td>
+                    <td>@dactorData.Doctor_PhoneNumber</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+        <br/>
+        <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+        //<button class="btn btn-outline-primary"><a href="@Url.Action("A")">Add</a></button>
+
+    }
+    else
+    {
+        Console.WriteLine("No Data Found");
+    }
+</div>

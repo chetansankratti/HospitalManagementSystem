@@ -1,0 +1,55 @@
+@model PatientModel;
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css"/>
+}
+
+<div class="Details-Container" >
+
+    <div class="head">
+        <h2>Manipal Hospital's</h2>
+        <img src="@Url.Content("~/hospital.png")" class="logo"/>
+    </div><br/>
+    <h3><b> Patient Details</b></h3>
+    
+    <div class="Details">
+        <h3 class="details-title">Appointment Date :</h3>
+        <p class="details-text">@Model.AppointmentDate</p>
+        
+        <h3 class="details-title"> Patient ID</h3>
+        <p class="details-text">@Model.Patient_ID</p>
+
+        <h3 class="details-title">Patient Name:</h3>
+        <p class="details-text">@Model.Patient_Name</p>
+
+        <h3 class="details-title">Phone Number:</h3>
+        <p class="details-text">@Model.Phone_Number</p>
+
+        <h3 class="details-title">Age</h3>
+        <p class="details-text">@Model.Patient_Age</p>
+
+        <h3 class="details-title">Date of Birth:</h3>
+        <p class="details-text">@Model.DOB</p>
+
+        <h3 class="details-title">Gender:</h3>
+        <p class="details-text">@Model.Gender</p>
+
+        <h3 class="details-title">Address:</h3>
+        <p class="details-text">@Model.Address</p>
+
+        <h3 class="details-title">Doctor Name:</h3>
+        <p class="details-text">@Model.Doctor_Name</p>
+
+        <h3 class="details-title">Disease Name:</h3>
+        <p class="details-text">@Model.Disease_Name</p>
+
+        <h3 class="details-title">Medicine Details ::</h3>
+        <p class="details-text">@Model.MedicineDetails</p>
+        
+        <h3 class="details-title">Password :</h3>
+        <p class="details-text">@Model.Password</p>
+    </div>
+    <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+</div>

@@ -1,0 +1,24 @@
+@model DoctorModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css"/>
+}
+
+
+<div class="form">
+    <h2>Doctor's Login</h2>
+    <form asp-controller="Doctor" asp-action="DoctorLogin" method="post" autocomplete="off">
+        <label asp-for="Doctor_PhoneNumber" class="label">Phone Number</label>
+        <input asp-for="Doctor_PhoneNumber" class="input"/>
+        <span asp-validation-for="Doctor_PhoneNumber" style="color: red"></span>
+
+        <label asp-for="Doctor_Password" class="label">Password</label>
+        <input asp-for="Doctor_Password" class="input" type="password"/>
+        <span asp-validation-for="Doctor_Password" style="color: red"></span><br/>
+        <button type="submit" class="btn btn-outline-danger"> Submit</button>
+        <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+    </form>
+    
+</div>

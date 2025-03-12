@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Appointment\AppointmentList.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Appointment\CreateAppointment.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\About.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Appointment.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Contact.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Home.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Patient_Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Patient_List.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Hospital\Update.cshtml" />
+    </ItemGroup>
+
+</Project>

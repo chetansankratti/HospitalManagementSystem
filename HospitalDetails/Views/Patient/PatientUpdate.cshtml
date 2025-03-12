@@ -1,0 +1,34 @@
+@model UpdatePatientModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css">
+}
+
+<div class="form">
+    <h2>Update Patient Details</h2>
+
+    <form asp-controller="Patient" asp-action="PatientUpdate" method="post">
+        <label class="label">Patient ID</label>
+        <input asp-for="Patient_ID" class="input" readonly />
+
+        <label class="label">Patient Name</label>
+        <input asp-for="Patient_Name" class="input" readonly />
+
+        <label class="label">Disease Name</label>
+        <input asp-for="Disease_Name" class="input" readonly />
+
+        <!-- Editable fields for update -->
+        <label asp-for="Doctor_Name" class="label">Doctor Name</label>
+        <input asp-for="Doctor_Name" class="input" />
+        <span asp-validation-for="Doctor_Name" style="color: red"></span><br />
+
+        <label asp-for="MedicineDetails" class="label">Medicine Details</label>
+        <input asp-for="MedicineDetails" class="input" />
+        <span asp-validation-for="MedicineDetails" style="color: red"></span><br />
+
+        <button type="submit" class="btn btn-outline-danger">Submit</button>
+        <button class="btn btn-outline-success"><a href="@Url.Action("AllPatientDetails", "Patient")">Back</a></button>
+    </form>
+</div>

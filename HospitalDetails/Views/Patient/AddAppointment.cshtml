@@ -1,0 +1,55 @@
+@model PatientModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    <link rel="stylesheet" href="~/css/Style.css">
+}
+<div class="form">
+<h2>Please Add Appointment Details</h2>
+
+<form asp-controller="Patient" asp-action="AddAppointment" method="post" autocomplete="off">
+    
+    <label asp-for="Patient_Name" class="label">Patient Name</label>
+    <input asp-for="Patient_Name" class="input"/>
+    <span asp-validation-for="Patient_Name" style="color: red"></span>
+
+    <label asp-for="Phone_Number" class="label">Phone Number</label>
+    <input  asp-for="Phone_Number" class="input"/>
+    <span asp-validation-for="Phone_Number" style="color: red"></span>
+
+    <label asp-for="Patient_Age" class="label">Patient Age</label>
+    <input  asp-for="Patient_Age" class="input"/>
+    <span asp-validation-for="Patient_Age" style="color: red"></span>
+
+    
+    <label asp-for="DOB" class="label">Date Of Birth</label>
+    <input type="date" asp-for="DOB" class="input" value="@Model.DOB.ToString("yyyy-MM-dd")" />
+    <span asp-validation-for="DOB" style="color: red"></span><br/>
+
+    <label asp-for="Gender" class="label">Gender</label>
+    <input  asp-for="Gender" class="input"/>
+    <span asp-validation-for="Gender" style="color: red"></span><br/>
+
+    <label asp-for="Disease_Name" class="label">Disease Name</label>
+    <input  asp-for="Disease_Name" class="input"/>
+    <span asp-validation-for="Disease_Name" style="color: red"></span>
+    
+
+    <label asp-for="AppointmentDate" class="label">Appointment Date</label>
+    <input type="date" asp-for="AppointmentDate" class="input" value="@Model.AppointmentDate.ToString("yyyy-MM-dd")" />
+    <span asp-validation-for="AppointmentDate" style="color: red"></span><br/>
+    
+
+    <label asp-for="Address" class="label">Address</label>
+    <input  asp-for="Address" class="input"/>
+    <span asp-validation-for="Address" style="color: red"></span><br/>
+
+    <label asp-for="Password" class="label">Password</label>
+    <input  asp-for="Password" class="input" type="password"/>
+    <span asp-validation-for="Password" style="color: red"></span><br/>
+    
+    <button type="submit" class="btn btn-outline-danger"> Submit</button>
+    <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+</form>
+</div>
