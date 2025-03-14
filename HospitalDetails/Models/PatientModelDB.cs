@@ -4,14 +4,10 @@ namespace HospitalDetails.Models;
 
 public class PatientModelDB
 {
-    string cs="Data Source=ADVI;Initial Catalog=HospitalDataDetails;Integrated Security=True";
+   // string cs="Data Source=ADVI;Initial Catalog=HospitalDataDetails;Integrated Security=True";
+   string cs = "Server=tcp:advi-server.database.windows.net,1433;Initial Catalog=HospitalDataDetails;Persist Security Info=False;User ID=your-advi-server;Password=Chetan@21;MultipleActiveResultSets=FalseEncrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
-    // private readonly string cs;
-    //
-    // public PatientModelDB(IConfiguration configuration)
-    // {
-    //     cs = configuration.GetConnectionString("PatientModelDBConnection");
-    // }
+    
     
     public List<PatientModel> getPatientsDetails()
     {
