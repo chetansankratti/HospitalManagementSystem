@@ -6,7 +6,9 @@ namespace HospitalDetails.Models;
 public class DoctorModelDB
 {
    // string cs = "Data Source=ADVI;Initial Catalog=HospitalDataDetails;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
-   string cs = "Server=tcp:advi-server.database.windows.net,1433;Initial Catalog=HospitalDataDetails;Persist Security Info=False;User ID=your-advi-server;Password=Chetan@21;MultipleActiveResultSets=FalseEncrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+   //string cs = "Server=tcp:advi-server.database.windows.net,1433;Initial Catalog=HospitalDataDetails;Persist Security Info=False;User ID=your-advi-server;Password=Chetan@21;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+   string cs = "Server=tcp:advi-server.database.windows.net,1433;Initial Catalog=HospitalDataDetails;Persist Security Info=False;User ID=advi-server;Password=Chetan@21;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     public List <DoctorModel> getDoctorDetails()
     {
       List<DoctorModel> doctorsList = new List<DoctorModel>();
