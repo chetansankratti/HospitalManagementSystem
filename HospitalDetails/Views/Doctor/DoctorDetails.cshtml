@@ -15,12 +15,13 @@
         <table>
             <thead>
             <tr>
+                <th>S.NO</th>
                 <th>Doctor Name</th>
                 <th>Specialist</th>
-                <th>PhoneNumber</th>
+                @* <th>PhoneNumber</th> *@
                 @* <th>Doctor Name</th> *@
-              
-                
+
+
             </tr>
             </thead>
 
@@ -28,9 +29,10 @@
             @foreach (var dactorData in Model)
             {
                 <tr>
+                    <td>@dactorData.Doctor_ID</td>
                     <td>@dactorData.Doctor_Name</td>
                     <td>@dactorData.Specialist</td>
-                    <td>@dactorData.Doctor_PhoneNumber</td>
+                    @* <td>@dactorData.Doctor_PhoneNumber</td> *@
                 </tr>
             }
             </tbody>
