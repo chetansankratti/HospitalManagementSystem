@@ -1,4 +1,4 @@
-/* home Page*/
+/* Home Page */
 .content {
     max-width: 900px;
     margin: 20px auto;
@@ -73,10 +73,10 @@ nav {
     margin-top: 15px;
 }
 
-/* Form page */
+/* Form Page */
 .form {
     width: 380px;
-    background: linear-gradient(135deg, rgba(30, 42, 120, 0.8), rgba(93, 38, 193, 0.8), rgba(156, 39, 176, 0.8)); /* Gradient */
+    background: linear-gradient(135deg, rgba(30, 42, 120, 0.8), rgba(93, 38, 193, 0.8), rgba(156, 39, 176, 0.8));
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -84,7 +84,7 @@ nav {
     text-align: center;
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.3);
-    margin-left:370px;
+    margin-left: 370px;
     margin-top: 50px;
 }
 
@@ -93,7 +93,7 @@ nav {
     margin-bottom: 20px;
     font-size: 28px;
     font-weight: bold;
-    color:black;
+    color: black;
     text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.5);
 }
 
@@ -129,16 +129,17 @@ nav {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-/* Responsive Design */
+/* Responsive Design for Form on Small Screens */
 @media (max-width: 600px) {
     .form {
         width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 /* Table Container */
 .table-content {
-   
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -213,7 +214,7 @@ a {
     display: inline-block;
 }
 
-/* Responsive Design */
+/* Responsive Design for Table and Buttons */
 @media (max-width: 768px) {
     table {
         display: block;
@@ -232,7 +233,6 @@ a {
     max-width: 800px;
     margin-left: 180px;
     margin-top: 35px;
-    /*background:(255, 255, 255, 0.1); !* Glass effect *!*/
     background-color: mistyrose;
     padding: 30px;
     border-radius: 15px;
@@ -249,7 +249,7 @@ a {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Main Heading */
+/* Main Heading for About and Other Sections */
 h2 {
     font-size: 30px;
     font-weight: 600;
@@ -259,12 +259,11 @@ h2 {
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 15px;
-   
 }
 
 /* Section Titles */
 .about-h3, .about-h4 {
-    color:#00b4d8;
+    color: #00b4d8;
     font-size: 22px;
     margin-top: 20px;
     text-transform: uppercase;
@@ -274,7 +273,7 @@ h2 {
 /* Paragraph Styling */
 .about-p {
     font-size: 16px;
-    color:black;
+    color: black;
     text-align: justify;
     padding: 8px;
     line-height: 1.8;
@@ -290,11 +289,13 @@ h2 {
     transform: scale(1.02);
 }
 
-/* Responsive Design */
+/* Responsive Design for About Page */
 @media (max-width: 768px) {
     .about-content {
         width: 90%;
         padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h2 {
@@ -314,9 +315,7 @@ h2 {
     }
 }
 
-/*Patient Details css*/
-
-/* 🌟 Main Container */
+/* Patient Details CSS */
 .Details-Container {
     max-width: 650px;
     margin: 50px auto;
@@ -335,7 +334,6 @@ h2 {
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* 🌟 Background Decoration */
 .Details-Container::before {
     content: "";
     position: absolute;
@@ -348,9 +346,6 @@ h2 {
     opacity: 0.2;
 }
 
-/* 🌟 Title Styling */
-
-/* 🌟 Details Section */
 .Details {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -358,7 +353,6 @@ h2 {
     padding: 10px;
 }
 
-/* 🌟 Detail Item Styling */
 .details-title {
     font-size: 14px;
     font-weight: 600;
@@ -383,21 +377,6 @@ h2 {
     transform: scale(1.02);
 }
 
-/* 🌟 Full Width for Important Fields */
-/*.details-title:nth-last-child(2),*/
-/*.details-text:nth-last-child(1) {*/
-/*    grid-column: span 2;*/
-/*}*/
-
-/*!* 🌟 Password Styling *!*/
-/*.details-text:last-child {*/
-/*    font-style: italic;*/
-/*    letter-spacing: 2px;*/
-/*    font-size: 14px;*/
-/*    color: #ff5e5e;*/
-/*}*/
-
-/* 🌟 Responsive Design */
 @media (max-width: 768px) {
     .Details-Container {
         max-width: 90%;
@@ -408,9 +387,15 @@ h2 {
     }
 }
 
+/* Global Font Size Adjustments */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
 
-
-
-
-
-
+@media (min-width: 769px) {
+    body {
+        font-size: 16px;
+    }
+}
