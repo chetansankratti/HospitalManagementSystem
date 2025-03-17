@@ -4,6 +4,7 @@
     ViewBag.Title = "title";
     Layout = "_Layout";
     <link rel="stylesheet" href="~/css/Style.css"/>
+   
 }
 
 
@@ -18,7 +19,7 @@
         <input asp-for="Doctor_Password" class="input" type="password"/>
         <span asp-validation-for="Doctor_Password" style="color: red"></span><br/>
         <button type="submit" class="btn btn-outline-danger"> Submit</button>
-        <button class="btn btn-outline-success"><a href="@Url.Action("Home","Patient")">Back</a></button>
+        <button class="btn btn-outline-success"><a href="@Url.Action("Home", "Patient")">Back</a></button>
     </form>
-    
+
 </div>
