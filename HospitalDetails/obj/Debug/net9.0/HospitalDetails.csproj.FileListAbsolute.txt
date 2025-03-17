@@ -140,4 +140,5 @@ C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOp
 C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOperationsApplication\HospitalDetails\HospitalDetails\bin\Debug\net9.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOperationsApplication\HospitalDetails\HospitalDetails\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOperationsApplication\HospitalDetails\HospitalDetails\obj\Debug\net9.0\compressed\5s5cd5o8gk-ur3eyfpuve.gz
-C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOperationsApplication\HospitalDetails\HospitalDetails\obj\Debug\net9.0\compressed\day7rnzum3-5q75nlv7m9.gz
+C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOperationsApplication\HospitalDetails\HospitalDetails\obj\Debug\net9.0\HospitalDetails.sourcelink.json
+C:\Users\cheta\OneDrive\Desktop\Full Stock Programming\CSharp Programming\CurdOperationsApplication\HospitalDetails\HospitalDetails\obj\Debug\net9.0\compressed\day7rnzum3-ed6rjegwvl.gz

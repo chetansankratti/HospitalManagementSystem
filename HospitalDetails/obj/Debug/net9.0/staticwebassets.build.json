@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BFxqLNPnppjGk0TCvvAN2pCsfd/oRI2sXUhVwjFWqg8=",
+  "Hash": "tOypliASwzcfcyIqvHOavgmD9r37MjdvRTaMdGvDnjc=",
   "Source": "HospitalDetails",
   "BasePath": "_content/HospitalDetails",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-5q75nlv7m9.gz",
+      "Identity": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-ed6rjegwvl.gz",
       "SourceId": "HospitalDetails",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HospitalDetails",
-      "RelativePath": "css/Style#[.{fingerprint=5q75nlv7m9}]?.css.gz",
+      "RelativePath": "css/Style#[.{fingerprint=ed6rjegwvl}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\wwwroot\\css\\Style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pcx0voorr1",
-      "Integrity": "JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM=",
+      "Fingerprint": "aoq0uodwxi",
+      "Integrity": "CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\wwwroot\\css\\Style.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5q75nlv7m9",
-      "Integrity": "o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0=",
+      "Fingerprint": "ed6rjegwvl",
+      "Integrity": "/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Style.css"
@@ -3131,13 +3131,13 @@
       ]
     },
     {
-      "Route": "css/Style.5q75nlv7m9.css",
-      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-5q75nlv7m9.gz",
+      "Route": "css/Style.css",
+      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-ed6rjegwvl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000470366886"
+          "Quality": "0.000495049505"
         }
       ],
       "ResponseHeaders": [
@@ -3147,19 +3147,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2125"
+          "Value": "2019"
         },
         {
           "Name": "ETag",
-          "Value": "\"JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM=\""
+          "Value": "\"CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 16:37:12 GMT"
+          "Value": "Mon, 17 Mar 2025 12:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3175,26 +3175,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0=\""
+          "Value": "W/\"/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "5q75nlv7m9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Style.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0="
+          "Value": "sha256-/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg="
         }
       ]
     },
     {
-      "Route": "css/Style.5q75nlv7m9.css",
+      "Route": "css/Style.css",
       "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\wwwroot\\css\\Style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3204,7 +3196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8159"
+          "Value": "7940"
         },
         {
           "Name": "Content-Type",
@@ -3212,11 +3204,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0=\""
+          "Value": "\"/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 16:37:12 GMT"
+          "Value": "Mon, 17 Mar 2025 12:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.css.gz",
+      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-ed6rjegwvl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 12:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.ed6rjegwvl.css",
+      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-ed6rjegwvl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000495049505"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2019"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 12:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ed6rjegwvl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.ed6rjegwvl.css",
+      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\wwwroot\\css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 12:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3226,7 +3363,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5q75nlv7m9"
+          "Value": "ed6rjegwvl"
         },
         {
           "Name": "label",
@@ -3234,13 +3371,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0="
+          "Value": "sha256-/rvUx8ecb1S+h81Yk4HhcNB6ecDRNbTCQTGlhXRsDwg="
         }
       ]
     },
     {
-      "Route": "css/Style.5q75nlv7m9.css.gz",
-      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-5q75nlv7m9.gz",
+      "Route": "css/Style.ed6rjegwvl.css.gz",
+      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-ed6rjegwvl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3249,7 +3386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2125"
+          "Value": "2019"
         },
         {
           "Name": "Content-Type",
@@ -3257,11 +3394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM=\""
+          "Value": "\"CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 16:37:12 GMT"
+          "Value": "Mon, 17 Mar 2025 12:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3279,7 +3416,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5q75nlv7m9"
+          "Value": "ed6rjegwvl"
         },
         {
           "Name": "label",
@@ -3287,144 +3424,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM="
-        }
-      ]
-    },
-    {
-      "Route": "css/Style.css",
-      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-5q75nlv7m9.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000470366886"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2125"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 16:37:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0="
-        }
-      ]
-    },
-    {
-      "Route": "css/Style.css",
-      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\wwwroot\\css\\Style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8159"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 16:37:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o65+WIeHWoO48pjFz1sx1gaO0zN3aM1Q1nJOgF6iLQ0="
-        }
-      ]
-    },
-    {
-      "Route": "css/Style.css.gz",
-      "AssetFile": "C:\\Users\\cheta\\OneDrive\\Desktop\\Full Stock Programming\\CSharp Programming\\CurdOperationsApplication\\HospitalDetails\\HospitalDetails\\obj\\Debug\\net9.0\\compressed\\day7rnzum3-5q75nlv7m9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 16:37:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JziMBfmIX72E/OX/3hVtC5nt15/GoxCEaNoygn+t+tM="
+          "Value": "sha256-CpUVTqEbQLcuh+FKoH3Kj1lxQZTngZMr7nQoaccwdXg="
         }
       ]
     },
